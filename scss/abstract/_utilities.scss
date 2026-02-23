@@ -10,13 +10,13 @@ $colors: (
 @each $key, $val in $colors{
     //COLORS
     .text{
-        &--#{key}{
+        &--#{$key}{
             color: $val;
         }
     }
     //BACKGROUND COLOR
     .bg{
-        &--#{key}{
+        &--#{$key}{
             background-color: $val;
         }
     }
